@@ -488,6 +488,25 @@ body {
   .child img {
     height: 100%;
   }
+  .linep p {
+    font-size: smaller;
+    top: 11.98%;
+    z-index: 10;
+    text-align: center;
+  }
+  .linep .right {
+    position: absolute;
+    right: 3%;
+  }
+  .linep .left {
+    position: absolute;
+    left: 3%;
+  }
+  .line {
+    left: 3%;
+    width: 94%;
+    top: 12.3%;
+  }
   /* Menu */
   #menuBar {
     position: relative;
