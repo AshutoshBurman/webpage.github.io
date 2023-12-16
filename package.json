@@ -4,10 +4,10 @@
   "description": "",
   "source": "./index.html",
   "scripts": {
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "parcel index.html"
+    "build": "parcel index.html",
+    "compile":"node-sass main.scss main.css"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
     "gh-pages": "^6.1.0",
+    "node-sass": "^9.0.0",
     "parcel": "^2.10.3"
   },
   "dependencies": {
